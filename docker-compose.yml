@@ -1,6 +1,7 @@
 version: "3.8"
 services:
     python-app:
+        container_name: docker-backend-test-container
         build: .
         ports:
             - "5000:5000"
